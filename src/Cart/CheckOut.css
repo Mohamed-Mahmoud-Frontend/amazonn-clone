@@ -1,0 +1,87 @@
+.products .col-md-3 .card button{
+    background: white;
+    color: #0F1111;
+    text-decoration: none;
+    border-color: #FCD200;
+    width: 200px;
+    height: 35px;
+    border-radius: 60px;
+  }
+
+  .products .col-md-3 .card button:hover{
+    background: #fcd205;
+    color: #0F1111;
+    border-color: #FCD200;
+  }
+
+  .products h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+.col{
+    margin-bottom: 20px;
+}
+.ifEmpty h1{
+color: black;
+font-size: 60px;
+font-weight: bolder;
+}
+.shoppingButton1{
+  background: white;
+  color: #0F1111;
+  text-decoration: none;
+  border-color: #FCD200;
+  width: 200px;
+  height: 35px;
+  border-radius: 60px;
+  margin-bottom: 100px;
+}
+.shoppingButton1:hover{
+  background: #fcd205;
+  color: #0F1111;
+  border-color: #FCD200;
+}
+.shoppingButton2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.ifEmpty p{
+  color: black;
+  text-align: center;
+  }
+  .CheckOutProducts{
+    display: flex;
+    margin: 50px;
+}
+  .CheckOutProducts_img{
+    object-fit: contain;
+    width: 180px;
+    height: 180px;
+  }
+  .CheckOutProducts_info{
+    padding-left: 20px;
+    padding-top: 35px;
+  }
+  .CheckOutProducts_title{
+    font-size: 17px;
+    font-weight: 800;
+  }
+.shoppingButton3{
+  background: white;
+  color: #0F1111;
+  text-decoration: none;
+  border-color: #FCD200;
+  width: 200px;
+  height: 35px;
+  border-radius: 60px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+.shoppingButton3:hover{
+  background: #fcd205;
+  color: #0F1111;
+  border-color: #FCD200;
+}

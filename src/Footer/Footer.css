@@ -1,0 +1,111 @@
+
+*{
+    font-family:"Amazon Ember",Arial,sans-serif;
+}
+.footer{    
+    width: 100%;
+    background-color: #232F3E;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.footer1 h4{
+    color: white;
+    font-size: 20px;
+    font-family: 500;
+    text-decoration: none;
+    border-bottom: 1px solid #232F3E;
+}
+.footer1 p{
+    border-bottom: 1px solid #232F3E;
+    color: white;
+    font-size: 11px;
+}
+.d{
+    margin-top: 30px;
+}
+.footerLink{
+    text-decoration: none;
+}
+.footer1 p:hover{
+    width: fit-content;
+    border-bottom: 1px solid white;
+}
+.footer1 h4:hover{
+    width: fit-content;
+    border-bottom: 1px solid white;
+}
+.footer2{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.footer2 img{
+    position: absolute;
+    left: 400px;
+    width: 100px;
+}
+.button1{
+    border-radius: 3px;
+    width: 120px;
+    height: 35px;
+    padding: 5px;
+    color: rgba(255, 255, 255, 0.863);
+    margin-left: 10px;
+    background-color: #232F3E;
+    border: 1px solid rgba(255, 255, 255, 0.822);
+}
+.button2{
+    border-radius: 3px;
+    width: 110px;
+    height: 35px;
+    padding: 5px;
+    color: rgba(255, 255, 255, 0.863);
+    margin-left: 10px;
+    background-color: #232F3E;
+    border: 1px solid rgba(255, 255, 255, 0.822);
+}
+.LanguageIcon{
+    font-size: 5px;
+}
+.hr{
+    color: white;
+}
+                /* media querry */
+
+@media only screen and (max-width:992px) {
+    .footer2 img{
+        position: absolute;
+        justify-content: center;
+        }
+    .button1 {
+        display: none;
+        }
+        .button2 {
+        display: none;
+        }
+        .footer{
+        padding-left: 20px;
+        }
+}
+@media only screen and (min-width:992px){
+    .footer2 img{
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        }
+        .b{
+        margin-left: 250px;
+        }
+        .footer{
+        padding-left: 20px;
+        }
+}
+@media only screen and (max-width:600px) {
+    .footer2 img{
+        position: absolute;
+        left: 180px;
+        }}
+                    /*end media querry */

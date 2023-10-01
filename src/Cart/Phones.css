@@ -1,0 +1,74 @@
+.proud-header{
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+
+
+  .proud-header h2 {
+    color: #0f0f11;
+    font-size: 21px;
+    font-weight: bold;
+    padding-top: 5px;
+  }
+  .proud-body img {
+    width: 200px;
+    height: 270px;
+  }
+  .proud-footer  {
+    background: white;
+    color: #0F1111;
+    text-decoration: none;
+    border-color: #FCD200;
+    width: 200px;
+    height: 35px;
+    border-radius: 60px;
+  }
+  .proud-footer:hover {
+    background: #fcd205;
+    color: #0F1111;
+    border-color: #FCD200;
+  }
+  .products .col-md-3{
+    margin-top: 30px;
+  }
+  .products .col-md-3 .card{
+    text-align: center;
+    padding: 30px;
+  }
+  .products .col-md-3 .card .shirt{
+    font-size: 100px;
+    color: #131330;
+    margin: auto;
+  }
+  .products .col-md-3 .card button{
+    background-color: white;
+    border: 1px solid #131330;
+    color: #131330;
+    padding: 5px 20px;
+  }
+  .products .col-md-3 .card button svg{
+  font-size: 30px;
+  }
+  .products h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .shoppingButton{
+    background-color: white;
+    color: #0F1111;
+    text-decoration: none;
+    border-color: #FCD200;
+    width: 200px;
+    height: 35px;
+    margin-left: 50px;
+    border-radius: 60px;
+    margin-bottom: 10px;
+  }
+  .shoppingButton:hover {
+    background: #fcd205;
+    color: #0F1111;
+    border-color: #FCD200;
+  }
+
+  

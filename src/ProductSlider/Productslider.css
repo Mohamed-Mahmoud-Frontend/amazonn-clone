@@ -1,0 +1,50 @@
+.py-4{
+    margin:20px;
+    background-color: white;
+}
+.imgg{
+    margin-top: 5px;
+    width:fit-content;
+    height:fit-content;
+    padding: 10px;
+}
+.divvv{
+    display: flex;
+    align-items: center;
+}
+.shop{
+    text-decoration: none;
+    margin-left: 15px;
+    color: rgb(53, 73, 73);
+    font-weight: 500;
+}
+.shop:hover{ 
+    color: coral;
+    text-decoration: none;
+}
+.price1{
+    display: flex;
+    background-color:#CC0C39;
+    width: 135px;
+    height: 27px;
+    padding: 6px;
+    line-height: 17px!important;
+}
+.price p{
+    font-size:9px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+.price{
+    display: flex;
+    text-decoration: none;
+    margin-left: 15px;
+}
+.price2 h5{
+    padding-left: 5px;
+    font-size:12px;
+    font-weight: 700;
+    color: #CC0C39;
+    line-height: 17px!important;
+    font-family:"Amazon Ember",Arial,sans-serif;
+}

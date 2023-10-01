@@ -1,0 +1,12 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color:rgb(234, 237, 237) ;
+}
+.loader{
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    }
